@@ -1,0 +1,27 @@
+# Python OpenCV-DepthCleaner
+Using OpenCV-DepthCleaner in python via pybind
+
+
+### Start
+1. Install Dependence: OpenCV pybind11 pyrealsense2
+2. build the cpp module
+```mkdir build
+cd build
+cmake ..
+make
+```
+
+3. Use,
+In python, using **import PyDepthInpaint** to import the cpp module.
+
+
+
+
+You can test the module's basic function by running
+```
+python module_test.py
+```
+If everything ok, you can see a random matrix.
+
+
+### inspired by [juniorxsound's project](https://github.com/juniorxsound/ThreadedDepthCleaner)
