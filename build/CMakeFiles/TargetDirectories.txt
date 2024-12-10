@@ -1,3 +1,0 @@
-/home/haoyu/dog/vision_depth/cv_depth/build/CMakeFiles/PyDepthInpaint.dir
-/home/haoyu/dog/vision_depth/cv_depth/build/CMakeFiles/edit_cache.dir
-/home/haoyu/dog/vision_depth/cv_depth/build/CMakeFiles/rebuild_cache.dir
