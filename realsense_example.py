@@ -94,7 +94,6 @@ class depth_camera_connect(threading.Thread):   #继承父类threading.Thread
         return depth_image
 
     def process_depth_image(self, depth_image):
-        depth_image = depth_image[1:-1, 11:-10]
         depth_image = np.clip(depth_image, 0.3, 5)
         depth_image = self.normalize_depth_image(depth_image)
         return depth_image
@@ -102,7 +101,6 @@ class depth_camera_connect(threading.Thread):   #继承父类threading.Thread
 
 
 if __name__ == "__main__":
-
     depth_camera = depth_camera_connect()
     time.sleep(10)
     depth_camera.shutdown_rs()
